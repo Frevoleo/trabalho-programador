@@ -22,7 +22,7 @@ def save_to_csv(phone_numbers, output_file):
         for number in phone_numbers:
             writer.writerow([number])
 
-# Exemplo de uso
+
 xlsx_file = r"C:\xampp\htdocs\python\arquivos.xlsx.xlsx"
 csv_file = "resultado.csv"
 
